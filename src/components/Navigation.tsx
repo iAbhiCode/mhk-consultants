@@ -25,6 +25,20 @@ export default function Navigation() {
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/demo" className="flex items-center space-x-2">
+          {/* <Image 
+            // src="/images/logo.png" 
+            src="/images/Tech brand (1).png"
+            alt="StartPro Logo" 
+            width={100} 
+            height={100} 
+            priority
+          /> */}
+          <span className="text-xl font-semibold text-[#0F4C5C]">MHK CONSULTANT</span>
+        </Link>
+
+
+
+        {/* <Link href="/demo" className="flex items-center space-x-2">
           <div className="w-8 h-8">
             <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 8h16v16H8V8z" fill="#0F4C5C"/>
@@ -32,7 +46,7 @@ export default function Navigation() {
             </svg>
           </div>
           <span className="text-xl font-semibold text-[#0F4C5C]">StartPro</span>
-        </Link>
+        </Link> */}
 
         {/* Navigation Links */}
         <div className="hidden md:flex items-center space-x-1">

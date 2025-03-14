@@ -1,47 +1,48 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
+// import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
-const partnerLogos = [
-  {
-    name: "MoneyM",
-    logo: "/logos/moneym.svg",
-    className: "w-28"
-  },
-  {
-    name: "Trade",
-    logo: "/logos/trade.svg",
-    className: "w-24"
-  },
-  {
-    name: "WalletSky",
-    logo: "/logos/walletsky.svg",
-    className: "w-32"
-  },
-  {
-    name: "Cube",
-    logo: "/logos/cube.svg",
-    className: "w-28"
-  },
-  {
-    name: "PayFlow",
-    logo: "/logos/payflow.svg",
-    className: "w-32"
-  },
-  {
-    name: "DarkLight",
-    logo: "/logos/darklight.svg",
-    className: "w-24"
-  }
-];
+// const partnerLogos = [
+//   {
+//     name: "MoneyM",
+//     logo: "/logos/moneym.svg",
+//     className: "w-28"
+//   },
+//   {
+//     name: "Trade",
+//     logo: "/logos/trade.svg",
+//     className: "w-24"
+//   },
+//   {
+//     name: "WalletSky",
+//     logo: "/logos/walletsky.svg",
+//     className: "w-32"
+//   },
+//   {
+//     name: "Cube",
+//     logo: "/logos/cube.svg",
+//     className: "w-28"
+//   },
+//   {
+//     name: "PayFlow",
+//     logo: "/logos/payflow.svg",
+//     className: "w-32"
+//   },
+//   {
+//     name: "DarkLight",
+//     logo: "/logos/darklight.svg",
+//     className: "w-24"
+//   }
+// ];
 
 export default function HeroSection() {
   return (
     <section className="relative w-full overflow-hidden bg-[#0F4C5C] pt-16 pb-8">
       {/* Background Video */}
-      <div className="absolute inset-0 w-full h-full overflow-hidden">
+
+      <div className="absolute inset-0 w-full h-full overflow-hidden opacity-50">
         <video
           autoPlay
           loop
@@ -70,8 +71,9 @@ export default function HeroSection() {
             transition={{ duration: 0.5 }}
             className="text-[3.5rem] leading-[1.1] lg:text-[4.5rem] font-medium tracking-tight text-white text-center"
           >
-            Your Partner for{" "}
-            <span className="block">Financial Success</span>
+            Your Gateway to a {" "}
+            <span className="block bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">Global Future</span>
+            {/* <span className="block">Global Future</span> */}
           </motion.h1>
 
           <motion.p
@@ -80,7 +82,7 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="mt-6 text-lg text-slate-200 max-w-2xl mx-auto text-center"
           >
-            Lorem ipsum dolor sit amet, vim id assentior moderatius, neligendis iuvaret est per et inani alienum.
+            Shaping Futures, One Dream at a Time – Your Trusted Partner for Study Visas, Visitor Visas and Language Coaching Worldwide
           </motion.p>
 
           <motion.div

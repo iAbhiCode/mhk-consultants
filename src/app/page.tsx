@@ -11,6 +11,7 @@ import FAQSection from "@/components/FAQSection";
 import ContactSection from "@/components/ContactSection";
 import LocationsSection from "@/components/LocationsSection";
 import FooterSection from "@/components/FooterSection";
+import Process from "@/components/Process";
 
 export default function Home() {
   return (
@@ -35,6 +36,8 @@ export default function Home() {
       
       {/* Stories Section */}
       <StoriesSection />
+
+     
       
       {/* Case Studies Section */}
       <CaseStudiesSection />
@@ -53,6 +56,11 @@ export default function Home() {
       
       {/* Footer Section */}
       <FooterSection />
+
+
+
+
+      <Process />
     </main>
   );
 }
